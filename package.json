@@ -2,7 +2,7 @@
   "name": "rektangel",
   "version": "1.0.0",
   "description": "Workspace to Mjukvarutestare-JavaScript",
-  "main": "index.js",
+  "main": "rektangel.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
