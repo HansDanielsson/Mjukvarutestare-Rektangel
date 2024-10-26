@@ -1,5 +1,5 @@
-class Rektangel{
-  constructor(length, width) {
+class Rektangel {
+  constructor (length, width) {
     if (this.wrongSize(length, width)) {
       return null
     }
@@ -8,7 +8,7 @@ class Rektangel{
     this.width = width
   }
 
-  setSize(length, width) {
+  setSize (length, width) {
     if (this.wrongSize(length, width)) {
       return 'Felaktig storlek'
     }
@@ -17,16 +17,16 @@ class Rektangel{
     this.width = width
   }
 
-  getArea() {
+  getArea () {
     return this.length * this.width
   }
 
-  isSquare() {
+  isSquare () {
     return this.length === this.width
   }
 
   // Om storleken är negativt eller om bredden är större än längden så är det inte godkända
-  wrongSize(length, width) {
+  wrongSize (length, width) {
     if (length <= 0 || width <= 0) {
       return true
     }

@@ -1,7 +1,7 @@
 const calculateTotalPrice = require('./calculateTotalPrice.js')
 
 describe('CalculateTotalPrice', () => {
-
+  let cost
   it('Köp av 1 produkt', () => {
     cost = calculateTotalPrice(10, 'regular', 1)
     expect(cost).toBe(10)
