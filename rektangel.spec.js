@@ -9,7 +9,7 @@ describe('Rektangel', () => {
       const rect = new Rektangel(5, 3)
       expect(rect.length).toBe(5)
       expect(rect.width).toBe(3)
-    });
+    })
     /*
     test('should return null for invalid size where width is larger than length', () => {
       const rect = new Rektangel(3, 5)
